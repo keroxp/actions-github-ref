@@ -7,6 +7,6 @@
     "fmt": "prettier --write '**/*.ts'"
   },
   "dependencies": {
-    "@actions/core": "^1.2.0"
+    "@actions/core": "^1.2.6"
   }
 }
