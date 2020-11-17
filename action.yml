@@ -3,4 +3,4 @@ description: 'Extract current branch name and tag'
 author: 'keroxp'
 runs:
   using: 'node12'
-  main: 'index.js'
+  main: 'lib/index.js'
