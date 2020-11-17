@@ -1,12 +1,17 @@
 {
   "name": "actions-github-ref",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "author": "keroxp <kerokerokerop@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "fmt": "prettier --write '**/*.ts'"
+    "fmt": "prettier --write '**/*.ts'",
+    "build": "ncc build index.js -o lib"
   },
+  "main": "lib/index.js",
   "dependencies": {
     "@actions/core": "^1.2.6"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.3"
   }
 }
